@@ -27,6 +27,10 @@ namespace WebApplication1.Controllers
         {
             return View();
         }
+        public IActionResult CreateWithForm()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {

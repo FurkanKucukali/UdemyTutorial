@@ -17,7 +17,7 @@ namespace WebApplication1.Controllers
         {
             _logger = logger;
         }
-        [Route("Yavuz")]
+        
         public IActionResult Index()
         {
             var customers = CustomerContext.Customers;
@@ -27,9 +27,26 @@ namespace WebApplication1.Controllers
         {
             return View();
         }
+         [HttpPost]
         public IActionResult CreateWithForm()
         {
-            return View();
+
+          var firstName=  HttpContext.Request.Form["firstName"].ToString();
+            var lastName = HttpContext.Request.Form["lastName"].ToString();
+            var age = int.Parse(HttpContext.Request.Form["age"].ToString());
+
+            var lastCustomer = CustomerContext.Customers.Last();
+            var id = lastCustomer.Id + 1;
+            CustomerContext.Customers.Add(new Customer
+            {
+                Id = id,
+                Age = age,
+                FirstName = firstName,
+                LastName = lastName,
+                
+            });
+            
+            return RedirectToAction("Index");
         }
 
         public IActionResult Privacy()

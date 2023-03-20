@@ -9,8 +9,8 @@ namespace WebApplication1.Models
     {
         public static List<Customer> Customers = new()
         {
-            new Customer { FirstName = "Yavuz", LastName = "Kahraman ", Age = 27 },
-            new Customer { FirstName = "Oğuz", LastName = "Veli", Age = 23 }
+            new Customer {Id = 1, FirstName = "Yavuz", LastName = "Kahraman ", Age = 27 },
+            new Customer {Id = 2, FirstName = "Oğuz", LastName = "Veli", Age = 23 }
         };
     }
 }

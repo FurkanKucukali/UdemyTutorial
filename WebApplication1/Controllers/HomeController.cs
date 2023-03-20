@@ -34,9 +34,18 @@ namespace WebApplication1.Controllers
           var firstName=  HttpContext.Request.Form["firstName"].ToString();
             var lastName = HttpContext.Request.Form["lastName"].ToString();
             var age = int.Parse(HttpContext.Request.Form["age"].ToString());
+            var lastCustomer;
+            try
+            {
+                var lastCustomer = CustomerContext.Customers.Last();
 
-            var lastCustomer = CustomerContext.Customers.Last();
-            var id = lastCustomer.Id + 1;
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e);
+            }
+
+            var id =lastCustomer==null?  1 : lastCustomer.Id + 1;
             CustomerContext.Customers.Add(new Customer
             {
                 Id = id,
@@ -46,6 +55,13 @@ namespace WebApplication1.Controllers
                 
             });
             
+            return RedirectToAction("Index");
+        }
+        public IActionResult Remove()
+        {
+            var id = int.Parse(RouteData.Values["id"].ToString());
+            var removedCustomer = CustomerContext.Customers.Find(a=> a.Id == id);
+            CustomerContext.Customers.Remove(removedCustomer);
             return RedirectToAction("Index");
         }
 

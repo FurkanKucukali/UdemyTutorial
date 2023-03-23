@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31424.327
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdemyTutorial", "UdemyTutorial\UdemyTutorial.csproj", "{AAD5101F-25E0-46B6-B829-C8A54C9CF1C0}"
 EndProject
@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SenkronikAsenkronik", "Senk
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{8E8150E0-7707-4AAE-9F6E-31682CA109D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PredicateDelagate", "PredicateDelagate\PredicateDelagate.csproj", "{0108ED63-038B-46E9-BAA0-DC6102BE5CCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PredicateDelagate", "PredicateDelagate\PredicateDelagate.csproj", "{0108ED63-038B-46E9-BAA0-DC6102BE5CCB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "leetCode", "leetCode\leetCode.csproj", "{D662F589-CEE2-49AD-A84B-324E1BF52D8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncDelegate", "05.FuncDelegate\FuncDelegate.csproj", "{02CEC03D-9789-4E6B-8B8D-71F013C67352}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{0108ED63-038B-46E9-BAA0-DC6102BE5CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0108ED63-038B-46E9-BAA0-DC6102BE5CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0108ED63-038B-46E9-BAA0-DC6102BE5CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D662F589-CEE2-49AD-A84B-324E1BF52D8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D662F589-CEE2-49AD-A84B-324E1BF52D8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D662F589-CEE2-49AD-A84B-324E1BF52D8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D662F589-CEE2-49AD-A84B-324E1BF52D8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02CEC03D-9789-4E6B-8B8D-71F013C67352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02CEC03D-9789-4E6B-8B8D-71F013C67352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02CEC03D-9789-4E6B-8B8D-71F013C67352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02CEC03D-9789-4E6B-8B8D-71F013C67352}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

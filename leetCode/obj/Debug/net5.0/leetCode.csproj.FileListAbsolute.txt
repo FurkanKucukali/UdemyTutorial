@@ -1,0 +1,16 @@
+C:\Users\fkucukali\source\repos\UdemyTutorial\leetCode\bin\Debug\net5.0\leetCode.exe
+C:\Users\fkucukali\source\repos\UdemyTutorial\leetCode\bin\Debug\net5.0\leetCode.deps.json
+C:\Users\fkucukali\source\repos\UdemyTutorial\leetCode\bin\Debug\net5.0\leetCode.runtimeconfig.json
+C:\Users\fkucukali\source\repos\UdemyTutorial\leetCode\bin\Debug\net5.0\leetCode.runtimeconfig.dev.json
+C:\Users\fkucukali\source\repos\UdemyTutorial\leetCode\bin\Debug\net5.0\leetCode.dll
+C:\Users\fkucukali\source\repos\UdemyTutorial\leetCode\bin\Debug\net5.0\ref\leetCode.dll
+C:\Users\fkucukali\source\repos\UdemyTutorial\leetCode\bin\Debug\net5.0\leetCode.pdb
+C:\Users\fkucukali\source\repos\UdemyTutorial\leetCode\obj\Debug\net5.0\leetCode.csproj.AssemblyReference.cache
+C:\Users\fkucukali\source\repos\UdemyTutorial\leetCode\obj\Debug\net5.0\leetCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fkucukali\source\repos\UdemyTutorial\leetCode\obj\Debug\net5.0\leetCode.AssemblyInfoInputs.cache
+C:\Users\fkucukali\source\repos\UdemyTutorial\leetCode\obj\Debug\net5.0\leetCode.AssemblyInfo.cs
+C:\Users\fkucukali\source\repos\UdemyTutorial\leetCode\obj\Debug\net5.0\leetCode.csproj.CoreCompileInputs.cache
+C:\Users\fkucukali\source\repos\UdemyTutorial\leetCode\obj\Debug\net5.0\leetCode.dll
+C:\Users\fkucukali\source\repos\UdemyTutorial\leetCode\obj\Debug\net5.0\ref\leetCode.dll
+C:\Users\fkucukali\source\repos\UdemyTutorial\leetCode\obj\Debug\net5.0\leetCode.pdb
+C:\Users\fkucukali\source\repos\UdemyTutorial\leetCode\obj\Debug\net5.0\leetCode.genruntimeconfig.cache

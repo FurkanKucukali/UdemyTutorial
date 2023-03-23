@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "SI3q8OFGbQM1iPHqxJJxB9uxHfOjFthZzsj5eWNn2EKKToDBXE8yg4mcXNFNTTiSzf6NsWu9akLs61c1Kww68A==",
+  "dgSpecHash": "nACbGfbPvOo4cs5yDdXkuW355flAkAh81asGCU0u44AhnwnQ1NDOIvT1eOJFH24h9GLM/ilyisV7lrEoqjXh8g==",
   "success": true,
   "projectFilePath": "C:\\Users\\fkucukali\\source\\repos\\UdemyTutorial\\PredicateDelagate\\PredicateDelagate.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\fkucukali\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\fkucukali\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\fkucukali\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\fkucukali\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }

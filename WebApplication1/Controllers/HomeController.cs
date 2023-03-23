@@ -34,18 +34,16 @@ namespace WebApplication1.Controllers
           var firstName=  HttpContext.Request.Form["firstName"].ToString();
             var lastName = HttpContext.Request.Form["lastName"].ToString();
             var age = int.Parse(HttpContext.Request.Form["age"].ToString());
-            var lastCustomer;
-            try
+            Customer lastCustomer = null;
+            if(CustomerContext.Customers.Count > 0)
             {
-                var lastCustomer = CustomerContext.Customers.Last();
-
+                lastCustomer = CustomerContext.Customers.Last();
             }
-            catch(Exception e)
-            {
-                Console.WriteLine(e);
-            }
+            int id;
+            id = lastCustomer == null ?  1 :  lastCustomer.Id + 1;
 
-            var id =lastCustomer==null?  1 : lastCustomer.Id + 1;
+            
+          
             CustomerContext.Customers.Add(new Customer
             {
                 Id = id,
@@ -57,6 +55,7 @@ namespace WebApplication1.Controllers
             
             return RedirectToAction("Index");
         }
+        [HttpGet]
         public IActionResult Remove()
         {
             var id = int.Parse(RouteData.Values["id"].ToString());
@@ -64,6 +63,21 @@ namespace WebApplication1.Controllers
             CustomerContext.Customers.Remove(removedCustomer);
             return RedirectToAction("Index");
         }
+        [HttpGet]
+        public IActionResult Update()
+        {
+            var id = int.Parse(RouteData.Values["id"].ToString());
+           var updatedCustomer = CustomerContext.Customers.FirstOrDefault(a=> a.Id == id);
+            return View(updatedCustomer);
+        }
+        [HttpPost]
+        public IActionResult UpdateCustomer()
+        {
+            var id = int.Parse(HttpContext.Request.Form["id"].ToString());
+            var updatedCustomer = CustomerContext.Customers.FirstOrDefault(a=>a.Id == id);
+            return RedirectToAction("Index");
+        }
+        
 
         public IActionResult Privacy()
         {

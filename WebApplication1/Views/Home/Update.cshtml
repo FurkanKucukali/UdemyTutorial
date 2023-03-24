@@ -1,4 +1,6 @@
-﻿@model WebApplication1.Models.Customer
+﻿@using WebApplication1.Models
+@addTagHelper *,Microsoft.AspnetCore.Mvc.TagHelpers
+@model Customer
 <html>
     <head>
         <title>Update Customer</title>
@@ -8,7 +10,7 @@
     <body>
         <div class="container">
             <h3>Update - Customer</h3>
-            <form action="/Home/Update" method="post">
+            <form asp-action="UpdateCustomer" asp-controller="Home" method="post">
                 <input type="hidden" name="id" value="@Model.Id" />
                 <div class="form-group">
                     <label> First Name : </label>

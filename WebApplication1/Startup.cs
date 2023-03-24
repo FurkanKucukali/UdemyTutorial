@@ -51,7 +51,7 @@ namespace WebApplication1
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{Controller}/{Action}/{id?}",
-                    defaults: new  { Controler = "Home",Action = "Index" });
+                    defaults: new  { Controller = "Home",Action = "Index" });
             });
         }
     }

@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Delege": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:60730;http://localhost:60734"
+    }
+  }
+}

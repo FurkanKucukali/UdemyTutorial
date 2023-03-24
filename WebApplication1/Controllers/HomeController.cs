@@ -75,6 +75,9 @@ namespace WebApplication1.Controllers
         {
             var id = int.Parse(HttpContext.Request.Form["id"].ToString());
             var updatedCustomer = CustomerContext.Customers.FirstOrDefault(a=>a.Id == id);
+            updatedCustomer.FirstName = HttpContext.Request.Form["firstName"].ToString();
+            updatedCustomer.LastName = HttpContext.Request.Form["lastName"].ToString();
+            updatedCustomer.Age = int.Parse(HttpContext.Request.Form["Age"].ToString());
             return RedirectToAction("Index");
         }
         

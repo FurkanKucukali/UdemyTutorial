@@ -1,4 +1,6 @@
-﻿@model List<WebApplication1.Models.Customer>
+﻿@using WebApplication1.Models
+@addTagHelper *,Microsoft.AspnetCore.Mvc.TagHelpers
+@model List<Customer>
 
     <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
@@ -22,8 +24,8 @@
                         <td>@item.LastName</td>
                         <td>@item.Age</td>
                         <td>
-                            <a href="/Home/Update/@item.Id">Güncelle</a>
-                            <a href="/Home/Remove/@item.Id">Sil</a>
+                            <a asp-action="Update" asp-controller="Home" asp-route-id="@item.Id"> Güncelle</a>
+                            <a asp-action="Remove" asp-controller="Home" asp-route-id="@item.Id"> Sil</a>
 
                         </td>
                     </tr>

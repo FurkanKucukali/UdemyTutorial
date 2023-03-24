@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8rWhOYxyk+p1UeZ1jEojcGGGVafROxq4R60MYVajF2ndTiS0iF/VV2Ys8LGmS1zCOLXDyoOvyt4QkcusRs4+mw==",
+  "dgSpecHash": "dRUy7QHb66TpTPsbbt1856664NGYm+RbZ67HxGPEAUB6v31zJZtSEOsRWFifVZFH/b4BgYlpuC94PNlXyWyGhg==",
   "success": true,
   "projectFilePath": "C:\\Users\\fkucukali\\source\\repos\\UdemyTutorial\\SenkronikAsenkronik\\SenkronikAsenkronik.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\fkucukali\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\fkucukali\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\fkucukali\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\fkucukali\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

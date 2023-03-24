@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EzWmUhesuYoDtZL1qT+foMWYH62wZVW/ULxuUasQN+mUpdwLWMZCUHboUeVDoDU5L+G7nyOipAQTRhxxGqJ1wA==",
+  "dgSpecHash": "u8L3JvXkTs7vdtQCV8NspWG1dXGTfgfW8DKmf9mynNmSTYXJBWswKVtp4Qoli/xPSy2GS9aZgHV3DrMBg1kqOQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\fkucukali\\source\\repos\\UdemyTutorial\\Delege\\Delege.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\fkucukali\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\fkucukali\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\fkucukali\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\fkucukali\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

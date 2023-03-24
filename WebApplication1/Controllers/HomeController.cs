@@ -25,33 +25,27 @@ namespace WebApplication1.Controllers
         }
         public IActionResult Create()
         {
-            return View();
+            return View(new Customer());
         }
          [HttpPost]
-        public IActionResult CreateWithForm()
+         //Model Binding
+        public IActionResult CreateWithForm(Customer customer)
         {
 
-          var firstName=  HttpContext.Request.Form["firstName"].ToString();
-            var lastName = HttpContext.Request.Form["lastName"].ToString();
-            var age = int.Parse(HttpContext.Request.Form["age"].ToString());
+          //var firstName=  HttpContext.Request.Form["firstName"].ToString();
+          //  var lastName = HttpContext.Request.Form["lastName"].ToString();
+          //  var age = int.Parse(HttpContext.Request.Form["age"].ToString());
             Customer lastCustomer = null;
             if(CustomerContext.Customers.Count > 0)
             {
                 lastCustomer = CustomerContext.Customers.Last();
             }
-            int id;
-            id = lastCustomer == null ?  1 :  lastCustomer.Id + 1;
+            
+            customer.Id = lastCustomer == null ?  1 :  lastCustomer.Id + 1;
 
             
           
-            CustomerContext.Customers.Add(new Customer
-            {
-                Id = id,
-                Age = age,
-                FirstName = firstName,
-                LastName = lastName,
-                
-            });
+            CustomerContext.Customers.Add(customer);
             
             return RedirectToAction("Index");
         }

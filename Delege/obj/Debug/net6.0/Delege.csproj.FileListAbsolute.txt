@@ -1,0 +1,15 @@
+C:\Users\fkucukali\source\repos\UdemyTutorial\Delege\bin\Debug\net6.0\Delege.exe
+C:\Users\fkucukali\source\repos\UdemyTutorial\Delege\bin\Debug\net6.0\Delege.deps.json
+C:\Users\fkucukali\source\repos\UdemyTutorial\Delege\bin\Debug\net6.0\Delege.runtimeconfig.json
+C:\Users\fkucukali\source\repos\UdemyTutorial\Delege\bin\Debug\net6.0\Delege.dll
+C:\Users\fkucukali\source\repos\UdemyTutorial\Delege\bin\Debug\net6.0\Delege.pdb
+C:\Users\fkucukali\source\repos\UdemyTutorial\Delege\obj\Debug\net6.0\Delege.csproj.AssemblyReference.cache
+C:\Users\fkucukali\source\repos\UdemyTutorial\Delege\obj\Debug\net6.0\Delege.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fkucukali\source\repos\UdemyTutorial\Delege\obj\Debug\net6.0\Delege.AssemblyInfoInputs.cache
+C:\Users\fkucukali\source\repos\UdemyTutorial\Delege\obj\Debug\net6.0\Delege.AssemblyInfo.cs
+C:\Users\fkucukali\source\repos\UdemyTutorial\Delege\obj\Debug\net6.0\Delege.csproj.CoreCompileInputs.cache
+C:\Users\fkucukali\source\repos\UdemyTutorial\Delege\obj\Debug\net6.0\Delege.dll
+C:\Users\fkucukali\source\repos\UdemyTutorial\Delege\obj\Debug\net6.0\refint\Delege.dll
+C:\Users\fkucukali\source\repos\UdemyTutorial\Delege\obj\Debug\net6.0\Delege.pdb
+C:\Users\fkucukali\source\repos\UdemyTutorial\Delege\obj\Debug\net6.0\Delege.genruntimeconfig.cache
+C:\Users\fkucukali\source\repos\UdemyTutorial\Delege\obj\Debug\net6.0\ref\Delege.dll

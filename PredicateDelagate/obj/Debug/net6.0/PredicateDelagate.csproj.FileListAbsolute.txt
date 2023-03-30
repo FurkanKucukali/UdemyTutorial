@@ -1,0 +1,15 @@
+C:\Users\fkucukali\source\repos\UdemyTutorial\PredicateDelagate\bin\Debug\net6.0\PredicateDelagate.exe
+C:\Users\fkucukali\source\repos\UdemyTutorial\PredicateDelagate\bin\Debug\net6.0\PredicateDelagate.deps.json
+C:\Users\fkucukali\source\repos\UdemyTutorial\PredicateDelagate\bin\Debug\net6.0\PredicateDelagate.runtimeconfig.json
+C:\Users\fkucukali\source\repos\UdemyTutorial\PredicateDelagate\bin\Debug\net6.0\PredicateDelagate.dll
+C:\Users\fkucukali\source\repos\UdemyTutorial\PredicateDelagate\bin\Debug\net6.0\PredicateDelagate.pdb
+C:\Users\fkucukali\source\repos\UdemyTutorial\PredicateDelagate\obj\Debug\net6.0\PredicateDelagate.csproj.AssemblyReference.cache
+C:\Users\fkucukali\source\repos\UdemyTutorial\PredicateDelagate\obj\Debug\net6.0\PredicateDelagate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fkucukali\source\repos\UdemyTutorial\PredicateDelagate\obj\Debug\net6.0\PredicateDelagate.AssemblyInfoInputs.cache
+C:\Users\fkucukali\source\repos\UdemyTutorial\PredicateDelagate\obj\Debug\net6.0\PredicateDelagate.AssemblyInfo.cs
+C:\Users\fkucukali\source\repos\UdemyTutorial\PredicateDelagate\obj\Debug\net6.0\PredicateDelagate.csproj.CoreCompileInputs.cache
+C:\Users\fkucukali\source\repos\UdemyTutorial\PredicateDelagate\obj\Debug\net6.0\PredicateDelagate.dll
+C:\Users\fkucukali\source\repos\UdemyTutorial\PredicateDelagate\obj\Debug\net6.0\refint\PredicateDelagate.dll
+C:\Users\fkucukali\source\repos\UdemyTutorial\PredicateDelagate\obj\Debug\net6.0\PredicateDelagate.pdb
+C:\Users\fkucukali\source\repos\UdemyTutorial\PredicateDelagate\obj\Debug\net6.0\PredicateDelagate.genruntimeconfig.cache
+C:\Users\fkucukali\source\repos\UdemyTutorial\PredicateDelagate\obj\Debug\net6.0\ref\PredicateDelagate.dll

@@ -2,12 +2,17 @@
 @addTagHelper *,Microsoft.AspnetCore.Mvc.TagHelpers
 @model List<Customer>
 
-    <html xmlns="http://www.w3.org/1999/xhtml">
+    <html>
     <head>
         <title>Customer List</title>
         <link href ="~/css/StyleSheet.css" />
     </head>
     <body>
+
+    
+
+
+
         <div class="container">
             <h3>Customer List</h3>
             <a asp-action="Create" asp-controller="Home">Ekle</a>
@@ -32,6 +37,7 @@
                 }
             </table>
         </div>
+        
         
 
 

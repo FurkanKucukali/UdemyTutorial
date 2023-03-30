@@ -58,34 +58,27 @@ namespace WebApplication1.Controllers
             return RedirectToAction("Index");
         }
         [HttpGet]
-        public IActionResult Update()
+        public IActionResult Update(int id )
         {
-            var id = int.Parse(RouteData.Values["id"].ToString());
+            //var id = int.Parse(RouteData.Values["id"].ToString());
            var updatedCustomer = CustomerContext.Customers.FirstOrDefault(a=> a.Id == id);
             return View(updatedCustomer);
         }
         [HttpPost]
-        public IActionResult UpdateCustomer()
+        public IActionResult Update(Customer customer)
         {
-            var id = int.Parse(HttpContext.Request.Form["id"].ToString());
-            var updatedCustomer = CustomerContext.Customers.FirstOrDefault(a=>a.Id == id);
-            updatedCustomer.FirstName = HttpContext.Request.Form["firstName"].ToString();
-            updatedCustomer.LastName = HttpContext.Request.Form["lastName"].ToString();
-            updatedCustomer.Age = int.Parse(HttpContext.Request.Form["Age"].ToString());
+            //var id = int.Parse(HttpContext.Request.Form["id"].ToString());
+            var updatedCustomer = CustomerContext.Customers.FirstOrDefault(a=>a.Id == customer.Id);
+            //updatedCustomer.FirstName = HttpContext.Request.Form["firstName"].ToString();
+            //updatedCustomer.LastName = HttpContext.Request.Form["lastName"].ToString();
+            //updatedCustomer.Age = int.Parse(HttpContext.Request.Form["Age"].ToString());
+            updatedCustomer.FirstName = customer.FirstName;
+            updatedCustomer.LastName = customer.LastName;
+            updatedCustomer.Age = customer.Age;
             return RedirectToAction("Index");
         }
         
 
-        public IActionResult Privacy()
-        {
-           
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+       
     }
 }

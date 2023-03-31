@@ -1,0 +1,29 @@
+﻿
+@model DirectoryInfo[]
+
+<a asp-action="Create">Create</a>
+<tabl class="table table-hover table-bordered">
+    <thead>
+        <tr>
+            <th>Ad</th>
+            <th>Oluşturulma Zamanı</th>
+            <th>Path</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+         <tr>
+             <td>@item.Name</td>
+             <td>@item.CreationTime</td>
+             <td>@item.FullName</td>
+             <td>
+                 <a asp-action="Remove">Remove</a>
+             </td>
+         </tr>   
+        }
+
+    </tbody>
+
+</tabl>

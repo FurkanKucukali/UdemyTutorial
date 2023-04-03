@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System;
 using System.IO;
 
 namespace WebApplication1.Controllers
@@ -24,6 +25,14 @@ namespace WebApplication1.Controllers
             {
                 fileInfo.Create();
             }
+            return RedirectToAction("List");
+        }
+        public IActionResult CreateWithData()
+        {
+            FileInfo fileInfo = new FileInfo(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "files",Guid.NewGuid().ToString()+".txt"));
+            StreamWriter writer = fileInfo.CreateText();
+            writer.Write("Merhaba ben furkan");
+            writer.Close();
             return RedirectToAction("List");
         }
     }

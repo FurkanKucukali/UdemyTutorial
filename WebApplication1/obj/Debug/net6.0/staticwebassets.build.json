@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FaQ1cyrqjIHYcMHQPLArXqLYpaYrmkw3y8o5wMpgfok=",
+  "Hash": "+46zsWZky5sw9pkynrsYTDgtVRQzNco0xUJBvcJelW0=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -816,6 +816,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\fkucukali\\source\\repos\\UdemyTutorial\\WebApplication1\\wwwroot\\files\\ALO",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fkucukali\\source\\repos\\UdemyTutorial\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "files/ALO",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\ALO"
+    },
+    {
       "Identity": "C:\\Users\\fkucukali\\source\\repos\\UdemyTutorial\\WebApplication1\\wwwroot\\files\\StyleSheet.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
@@ -831,6 +848,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\files\\StyleSheet.css"
+    },
+    {
+      "Identity": "C:\\Users\\fkucukali\\source\\repos\\UdemyTutorial\\WebApplication1\\wwwroot\\files\\veli.txt",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fkucukali\\source\\repos\\UdemyTutorial\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "files/veli.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\veli.txt"
     },
     {
       "Identity": "C:\\Users\\fkucukali\\source\\repos\\UdemyTutorial\\WebApplication1\\wwwroot\\js\\site.js",

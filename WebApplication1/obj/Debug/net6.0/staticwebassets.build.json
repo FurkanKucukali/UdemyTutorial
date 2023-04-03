@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "b0URT46CNfLPsTet1R6DgR9waFCu2wFCAUDXxMm9KXI=",
+  "Hash": "FaQ1cyrqjIHYcMHQPLArXqLYpaYrmkw3y8o5wMpgfok=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -814,6 +814,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\fkucukali\\source\\repos\\UdemyTutorial\\WebApplication1\\wwwroot\\files\\StyleSheet.css",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fkucukali\\source\\repos\\UdemyTutorial\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "files/StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\StyleSheet.css"
     },
     {
       "Identity": "C:\\Users\\fkucukali\\source\\repos\\UdemyTutorial\\WebApplication1\\wwwroot\\js\\site.js",

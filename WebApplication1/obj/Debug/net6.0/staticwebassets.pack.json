@@ -189,6 +189,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\fkucukali\\source\\repos\\UdemyTutorial\\WebApplication1\\wwwroot\\files\\5299d7a3-5631-44f2-9cdf-850efa4c0d47.txt",
+      "PackagePath": "staticwebassets\\files\\5299d7a3-5631-44f2-9cdf-850efa4c0d47.txt"
+    },
+    {
       "Id": "C:\\Users\\fkucukali\\source\\repos\\UdemyTutorial\\WebApplication1\\wwwroot\\files\\ALO",
       "PackagePath": "staticwebassets\\files"
     },
@@ -199,6 +203,14 @@
     {
       "Id": "C:\\Users\\fkucukali\\source\\repos\\UdemyTutorial\\WebApplication1\\wwwroot\\files\\veli.txt",
       "PackagePath": "staticwebassets\\files\\veli.txt"
+    },
+    {
+      "Id": "C:\\Users\\fkucukali\\source\\repos\\UdemyTutorial\\WebApplication1\\wwwroot\\images\\1621d364-41d8-4c17-a72e-bf15ddd2fb49.png",
+      "PackagePath": "staticwebassets\\images\\1621d364-41d8-4c17-a72e-bf15ddd2fb49.png"
+    },
+    {
+      "Id": "C:\\Users\\fkucukali\\source\\repos\\UdemyTutorial\\WebApplication1\\wwwroot\\images\\a862c8f2-b280-4203-8ffc-584680542789.png",
+      "PackagePath": "staticwebassets\\images\\a862c8f2-b280-4203-8ffc-584680542789.png"
     },
     {
       "Id": "C:\\Users\\fkucukali\\source\\repos\\UdemyTutorial\\WebApplication1\\wwwroot\\js\\site.js",

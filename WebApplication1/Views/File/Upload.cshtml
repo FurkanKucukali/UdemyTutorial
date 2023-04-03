@@ -1,0 +1,26 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    if(TempData["message"]!= null)
+    {
+        <div class=" bg-primary text-white text-center lead">
+        @TempData["message"]
+        </div>
+    }
+}
+
+<html>
+<head>
+    <link href="~/css/StyleSheet.css" />
+</head>
+<form asp-action="Upload" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="formFile">Dosya :</label>
+        <input type="file" name="formFile" class="form-control" />
+    </div>
+    <div class="form-group text-right">
+        <button type="submit" class="btn btn-primary">Save</button>
+    </div>
+</form>
+</html>

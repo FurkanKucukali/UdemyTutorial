@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5FtaJ6l23qrvTe2M63qzUTtzCT0ID8+CuC/pVH2qNZs=",
+  "Hash": "YBvRqne+CE8eF82x9BToEna7X3ERjzNkCB784Aqxl2Q=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -816,23 +816,6 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\fkucukali\\source\\repos\\UdemyTutorial\\WebApplication1\\wwwroot\\files\\5299d7a3-5631-44f2-9cdf-850efa4c0d47.txt",
-      "SourceId": "WebApplication1",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fkucukali\\source\\repos\\UdemyTutorial\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
-      "RelativePath": "files/5299d7a3-5631-44f2-9cdf-850efa4c0d47.txt",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\files\\5299d7a3-5631-44f2-9cdf-850efa4c0d47.txt"
-    },
-    {
       "Identity": "C:\\Users\\fkucukali\\source\\repos\\UdemyTutorial\\WebApplication1\\wwwroot\\files\\ALO",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
@@ -865,23 +848,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\files\\StyleSheet.css"
-    },
-    {
-      "Identity": "C:\\Users\\fkucukali\\source\\repos\\UdemyTutorial\\WebApplication1\\wwwroot\\files\\veli.txt",
-      "SourceId": "WebApplication1",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\fkucukali\\source\\repos\\UdemyTutorial\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
-      "RelativePath": "files/veli.txt",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\files\\veli.txt"
     },
     {
       "Identity": "C:\\Users\\fkucukali\\source\\repos\\UdemyTutorial\\WebApplication1\\wwwroot\\images\\1621d364-41d8-4c17-a72e-bf15ddd2fb49.png",

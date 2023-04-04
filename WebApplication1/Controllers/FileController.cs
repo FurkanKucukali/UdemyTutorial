@@ -36,7 +36,7 @@ namespace WebApplication1.Controllers
                 fileInfo.Delete();
 
             }
-            return RedirectToAction("List")
+            return RedirectToAction("List");
 
             return RedirectToAction("List");
         }

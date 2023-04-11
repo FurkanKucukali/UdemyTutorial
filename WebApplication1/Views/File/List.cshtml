@@ -2,7 +2,7 @@
 <a asp-action="Create">Create</a>
 <div class="row">
     <div class="col-4">
-        @await Component.InvokeAsync("News")
+        @await Component.InvokeAsync("News",new {@color="red"})
     </div>
     <div class="col-8">
         <table class="table table-hover table-bordered">

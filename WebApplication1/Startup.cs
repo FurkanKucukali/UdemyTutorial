@@ -46,8 +46,14 @@ namespace WebApplication1
 
             app.UseAuthorization();
 
+
+            
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllerRoute(
+                    name:"areas",
+                    pattern:"{Area}/{Controller=Home}/{Action=Index}/{id?}"
+                    );
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{Controller}/{Action}/{id?}",

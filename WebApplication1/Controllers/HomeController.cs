@@ -20,7 +20,9 @@ namespace WebApplication1.Controllers
         
         public IActionResult Index()
         {
+            
             var customers = CustomerContext.Customers;
+            
             return View(customers);
         }
         public IActionResult Create()

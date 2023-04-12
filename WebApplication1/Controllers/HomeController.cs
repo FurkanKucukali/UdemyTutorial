@@ -31,25 +31,32 @@ namespace WebApplication1.Controllers
         }
          [HttpPost]
          //Model Binding
-        public IActionResult CreateWithForm(Customer customer)
+        public IActionResult Create(Customer customer)
         {
 
           //var firstName=  HttpContext.Request.Form["firstName"].ToString();
           //  var lastName = HttpContext.Request.Form["lastName"].ToString();
           //  var age = int.Parse(HttpContext.Request.Form["age"].ToString());
             Customer lastCustomer = null;
-            if(CustomerContext.Customers.Count > 0)
+            var control = ModelState.IsValid;
+            var errors = ModelState.Values.Select(I => I.Errors);
+            if (ModelState.IsValid)
             {
-                lastCustomer = CustomerContext.Customers.Last();
-            }
-            
-            customer.Id = lastCustomer == null ?  1 :  lastCustomer.Id + 1;
+                if (CustomerContext.Customers.Count > 0)
+                {
+                    lastCustomer = CustomerContext.Customers.Last();
+                }
 
-            
-          
-            CustomerContext.Customers.Add(customer);
-            
-            return RedirectToAction("Index");
+                customer.Id = lastCustomer == null ? 1 : lastCustomer.Id + 1;
+
+
+
+                CustomerContext.Customers.Add(customer);
+
+                return RedirectToAction("Index");
+            }
+            return View();
+           
         }
         [HttpGet]
         public IActionResult Remove()

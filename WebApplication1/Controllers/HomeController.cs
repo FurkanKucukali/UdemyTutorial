@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using WebApplication1.Filters;
 using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
@@ -30,6 +32,7 @@ namespace WebApplication1.Controllers
             return View(new Customer());
         }
          [HttpPost]
+        [ValidFirstName]
          //Model Binding
         public IActionResult Create(Customer customer)
         {
@@ -86,8 +89,21 @@ namespace WebApplication1.Controllers
             updatedCustomer.Age = customer.Age;
             return RedirectToAction("Index");
         }
-        
+        public IActionResult Status(int? code)
+        {
+          return View();
+        }
+        public IActionResult Error()
+        {
+            var exceptionHandlerPathFeature = HttpContext.Features.Get<IExceptionHandlerPathFeature>();
+            return View();
+        }
+        public IActionResult Hata()
+        {
+            throw new System.Exception("Sistemsel hata oluştu");
+        }
 
-       
+
+
     }
 }

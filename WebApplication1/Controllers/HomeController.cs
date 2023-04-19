@@ -4,6 +4,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using WebApplication1.Filters;
@@ -96,6 +97,18 @@ namespace WebApplication1.Controllers
         public IActionResult Error()
         {
             var exceptionHandlerPathFeature = HttpContext.Features.Get<IExceptionHandlerPathFeature>();
+            var logFilePath = "";
+            var logFileName = DateTime.Now.ToString();  
+            //serilog nlog
+            //11-02-2020_15-02
+
+            var logFolderPath = Path.Combine(Directory.GetCurrentDirectory(),"wwroot","logs");
+            DirectoryInfo directoryInfo = new DirectoryInfo(logFolderPath);
+            if (!directoryInfo.Exists)
+            {
+                directoryInfo.Create();
+            }
+            FileInfo fileInfo = new FileInfo(logFilePath);
             return View();
         }
         public IActionResult Hata()
